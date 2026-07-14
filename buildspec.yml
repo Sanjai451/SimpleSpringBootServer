@@ -20,5 +20,5 @@ phases:
       - mvn package -s settings.xml
 artifacts:
   files:
-    - target/*.war
+    - target/*.jar
   discard-paths: no
