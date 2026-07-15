@@ -22,4 +22,9 @@ public class HomeController {
     public String sayHello(){
         return "Hello world!!";
     }
+
+    @GetMapping("/greet")
+    public String sayGreet(){
+        return "Hey there!!";
+    }
 }
