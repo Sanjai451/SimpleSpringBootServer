@@ -9,12 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping("/")
-    public String sayHello(){
-        return "Hello";
+    public String greet(){
+        return "Welcome to the world of DevOps and CI/CD pipeline!!";
+    }
+
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "Hi :) ";
     }
 
     @GetMapping("/hello")
-    public String greet(){
+    public String sayHello(){
         return "Hello world!!";
     }
 }
